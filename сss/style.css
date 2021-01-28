@@ -1,0 +1,14 @@
+@import url("../сss/awesome.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.awesome {
+    width: 100%;
+}
+.conteiner {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}

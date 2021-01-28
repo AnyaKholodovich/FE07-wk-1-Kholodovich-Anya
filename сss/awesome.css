@@ -1,0 +1,45 @@
+.awesome_title {
+    padding-top: 64px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 36px;
+}
+.line {
+    max-width: 64px;
+    margin: auto;
+    border: 1px solid #D98943;
+}
+.awesome_subtitle {
+    margin-top: 30px;
+    margin-bottom: 67px;
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+}
+.awesome_block {
+    display: inline-block;
+    margin-top: 32px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.awesome_cirlce {
+    border: 1px solid #D98943;
+    width:70px ;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto; 
+    margin-bottom: 30px;
+    display: flex;
+  align-items: center;
+  justify-content: center
+}
+.awesome_bloks-title {
+font-size: 20px;
+text-align: center;
+margin-bottom: 16px;
+}
+.awesome_bloks-subtitle {
+    font-size: 14px;
+    text-align: center;
+}
