@@ -1,0 +1,162 @@
+.pricing {
+    background-color: #F5F5F5;
+}
+.pricing_title {
+    padding-top: 80px;
+    margin-bottom: 34px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.pricing_subtitle {
+    margin-top: 30px;
+    margin-bottom: 62px;
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.list {
+display: flex;
+justify-content: center;
+justify-content: space-around;
+margin-bottom: 80px;
+}
+.pricing {
+    padding: 15px;
+}
+.list1 {
+    color: #FFFFFF;
+    background-color: #333333;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.list2 {
+    color: #FFFFFF;
+    background-color: #333333;
+    width: 340px;
+    line-height: 100px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.list3 {
+    color:rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center; 
+}
+.list4 {
+    color: #86878B;
+    background-color: #FFFFFF;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.list5 {
+    color: #86878B;
+    background-color: #FFFFFF;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.list6 {
+    color: #86878B;
+    background-color: #FFFFFF;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.list7 {
+    color: #86878B;
+    background-color: #FFFFFF;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.list8 {
+    color: #86878B;
+    background-color: #FFFFFF;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.list9 {
+    color: #86878B;
+    background-color: #FFFFFF;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.list1 {
+    color: #FFFFFF;
+    background-color: #333333;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.list2 {
+    color: #FFFFFF;
+    background-color: #333333;
+    width: 340px;
+    line-height: 100px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.optima_list3 {
+    color:rgba(255, 255, 255, 0.5);
+    background-color: #D98943;
+    width: 340px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;  
+}
