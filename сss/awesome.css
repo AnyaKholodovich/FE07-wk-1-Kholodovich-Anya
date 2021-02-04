@@ -1,20 +1,5 @@
-.awesome_title {
-    padding-top: 64px;
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-.awesome_subtitle {
-    margin-top: 30px;
-    margin-bottom: 67px;
-    text-align: center;
-    color: #86878B;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+.awesome {
+    width: 100%;
 }
 .blocks {
 display: flex;

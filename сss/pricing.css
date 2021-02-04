@@ -1,37 +1,22 @@
 .pricing {
     background-color: #F5F5F5;
+    width: 100%;
 }
-.pricing_title {
-    padding-top: 80px;
-    margin-bottom: 34px;
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-.pricing_subtitle {
-    margin-top: 30px;
-    margin-bottom: 62px;
-    text-align: center;
-    color: #86878B;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
-.list {
+
+.pricing_lists {
 display: flex;
-justify-content: center;
 justify-content: space-around;
-margin-bottom: 80px;
+margin: 0 -15px;
+flex-wrap: wrap;
 }
-.pricing {
-    padding: 15px;
+.pricing_list_item {
+    margin: 0 15px;
+    width: 340px;
+    margin-bottom: 80px;
 }
-.list1 {
+.pricing_list-tariff {
     color: #FFFFFF;
     background-color: #333333;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -39,10 +24,9 @@ margin-bottom: 80px;
     font-size: 20px;
     text-align: center;
 }
-.list2 {
+.pricing_list-cost {
     color: #FFFFFF;
     background-color: #333333;
-    width: 340px;
     line-height: 100px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -53,7 +37,6 @@ margin-bottom: 80px;
 .list3 {
     color:rgba(255, 255, 255, 0.5);
     background-color: #333333;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -64,7 +47,6 @@ margin-bottom: 80px;
 .list4 {
     color: #86878B;
     background-color: #FFFFFF;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -75,7 +57,6 @@ margin-bottom: 80px;
 .list5 {
     color: #86878B;
     background-color: #FFFFFF;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -86,7 +67,6 @@ margin-bottom: 80px;
 .list6 {
     color: #86878B;
     background-color: #FFFFFF;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -97,7 +77,6 @@ margin-bottom: 80px;
 .list7 {
     color: #86878B;
     background-color: #FFFFFF;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -108,7 +87,6 @@ margin-bottom: 80px;
 .list8 {
     color: #86878B;
     background-color: #FFFFFF;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -119,7 +97,6 @@ margin-bottom: 80px;
 .list9 {
     color: #86878B;
     background-color: #FFFFFF;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -130,7 +107,6 @@ margin-bottom: 80px;
 .list1 {
     color: #FFFFFF;
     background-color: #333333;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -141,7 +117,6 @@ margin-bottom: 80px;
 .list2 {
     color: #FFFFFF;
     background-color: #333333;
-    width: 340px;
     line-height: 100px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
@@ -152,7 +127,6 @@ margin-bottom: 80px;
 .optima_list3 {
     color:rgba(255, 255, 255, 0.5);
     background-color: #D98943;
-    width: 340px;
     line-height: 50px;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;

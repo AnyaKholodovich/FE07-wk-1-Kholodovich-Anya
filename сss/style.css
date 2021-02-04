@@ -1,6 +1,7 @@
 @import url("../сss/awesome.css");
 @import url("../сss/pricing.css");
-
+@import url("../сss/testimonials.css");
+@import url("../сss/axure.css");
 
 * {
     margin: 0;
@@ -9,16 +10,35 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-.awesome {
-    width: 100%;
-}
 .conteiner {
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
 }
-.line {
-    max-width: 64px;
-    margin: auto;
-    border: 1px solid #D98943;
+.title {
+    padding-top: 80px;
+    margin-bottom: 34px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
 }
+.title::after {
+    content: '';
+    display: block;
+    width: 64px;
+    border: 1px solid #D98943;
+    margin: 40px auto;
+}
+.subtitle {
+    margin-top: 30px;
+    margin-bottom: 62px;
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
