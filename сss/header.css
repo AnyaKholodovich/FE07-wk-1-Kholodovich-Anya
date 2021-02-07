@@ -24,6 +24,7 @@
     display: inline-block;
     margin-left: 48px;
     transition: all 0.1s;
+    position: relative;
 }
 .header_list-item::after {
     content: '';
@@ -32,24 +33,12 @@
     border: 1px;
     border-radius: 1px;
     margin: 5px auto;
-    animation-name: line;
-    animation-duration: 2s;
-}
-@keyframes line {
-    0%{
-        left: 0;
-    }
-    50% {
-        border: 1px solid #FFFFFF;
-    }
-    100% {
-        left:76px;
-        border: 1px solid #FFFFFF;
-    }
 }
 .header_list-item:hover{
     color: #EC7979;
     transition-property:  color ;
     transition-duration: 0.1s ;
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 1px; 
 }
