@@ -8,7 +8,7 @@
     flex-wrap: wrap;
 }
 .manager {
-    padding: 0 15px;
+    margin: 0 15px;
     width: 300px;
     margin-bottom: 80px;
 }
@@ -34,6 +34,14 @@
     border: 10px solid transparent;
     border-top: 10px solid #E2E2E2;
 }
+.testimonials_appeal_appeal {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+}
+.testimonials__appeal_avatar {
+    margin-right: 40px;
+}
 .testimonials_appeal_name {
     font-size: 20px;
     font-weight: 700;
@@ -42,7 +50,7 @@
     color: #333333;
     margin-top: 12px;
 }
-.testimonials_appeal_name::before {
+/* .testimonials_appeal_name::before {
     content: "";
     background-image: url("/img/avatar/avatar_2_u231@1X\ 1.jpg");
     background-repeat: no-repeat;
@@ -52,7 +60,7 @@
     background-size: contain;
     vertical-align: middle;
     margin-right: 45px;
-}
+} */
 
 .testimonials_appeal_position {
     font-size: 14px;
