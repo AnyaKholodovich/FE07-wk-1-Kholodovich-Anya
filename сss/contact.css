@@ -1,0 +1,61 @@
+.contact {
+width: 100%;
+}
+.contact_conteiner{
+    margin-bottom: 45px;
+}
+.contact-filling{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.contact_inputs {
+    width: 480px;
+    margin: 0 15px;
+}
+.contact_trial-item {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact_label{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #BDBDBD;
+}
+input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    padding: 5px 0px;
+}
+.contact_input-big{
+    width: 480px;
+    margin: 0 15px;
+}
+textarea {
+    border: 0;
+    width: 100%;
+    height: 170px;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    padding: 5px 0px;
+}
+.contact_download{
+    display: block;
+    text-align: center;
+    margin: 70px auto;
+    width: 170px;
+    padding: 16px 32px;
+    background-color: #EC7979;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: 0.1s;
+}

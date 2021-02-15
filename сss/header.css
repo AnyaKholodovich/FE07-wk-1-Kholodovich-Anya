@@ -21,18 +21,15 @@
     text-transform: uppercase;
 }
 .header_list-item {
-    display: inline-block;
     margin-left: 48px;
-    transition: all 0.1s;
     position: relative;
 }
 .header_list-item::after {
     content: '';
-    display: block;
-    max-width: 76px;
-    border: 1px;
-    border-radius: 1px;
-    margin: 5px auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 .header_list-item:hover{
     color: #EC7979;
@@ -41,4 +38,38 @@
     transition-delay: 0.1s;
     border-bottom: 1px solid #FFFFFF;
     border-radius: 1px; 
+    width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+.header_list{
+    margin: auto;
+    width: 80%;
+  }
+  a {
+      text-decoration: none;
+      position: relative;
+  }
+  .header_list-item a::before {
+      content: '';
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+      transition: 0.2s;
+      transform: scaleX(0);
+    }
+    .contact_download a:hover:before {
+      transform: scaleX(1);
+    }

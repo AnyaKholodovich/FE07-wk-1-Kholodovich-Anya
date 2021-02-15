@@ -22,8 +22,9 @@
     transition: all 0.1s;
 }
 .footer_icons-item:hover {
-    font-size: 25px;
-    transition-property: font-size ;
+    /* font-size: 25px; */
+    transform: scale(1.2);
+    transition-property: all 0.3s;
     transition-duration: 0.1s;
     transition-delay: 0.1s;
 }

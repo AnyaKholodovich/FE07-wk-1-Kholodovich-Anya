@@ -23,6 +23,12 @@ flex-wrap: wrap;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.pricing_list-tariff:hover{
+    background-color: #FF8B38;
+
 }
 .pricing_list-cost {
     color: #FFFFFF;
@@ -33,6 +39,11 @@ flex-wrap: wrap;
     font-weight: 700;
     font-size: 35px;
     text-align: center;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.pricing_list-cost:hover{
+    background-color: #FF8B38;
 }
 .list3 {
     color:rgba(255, 255, 255, 0.5);
@@ -43,6 +54,11 @@ flex-wrap: wrap;
     font-weight: 600;
     font-size: 14px;
     text-align: center; 
+    cursor: pointer;
+    transition: 0.1s;
+}
+.list3:hover{
+    background-color: #FF8B38;
 }
 .list4 {
     color: #86878B;
@@ -113,24 +129,4 @@ flex-wrap: wrap;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-}
-.list2 {
-    color: #FFFFFF;
-    background-color: #333333;
-    line-height: 100px;
-    margin-bottom: 2px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
-    text-align: center;
-}
-.optima_list3 {
-    color:rgba(255, 255, 255, 0.5);
-    background-color: #D98943;
-    line-height: 50px;
-    margin-bottom: 2px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    text-align: center;  
 }
