@@ -54,4 +54,10 @@ background-color: rgba(0, 0, 0, 0.55);
     font-size: 14px;
     font-weight: 600px;
     border: 1px solid #FFFFFF;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.axure_bottom-download:hover{
+    background-color:#FFFFFF;
+    color:#EC7979;
 }

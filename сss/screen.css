@@ -20,6 +20,7 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .screen_axit {
     margin-bottom: 100px;
@@ -37,7 +38,6 @@ h1 {
     text-transform: uppercase;
     text-align: left;
     color: seashell;
-    margin-bottom: 32px; 
 }
 h1::after {
     content: '';
@@ -46,6 +46,7 @@ h1::after {
     border: 1px solid #FFFFFF;
     margin-left: 0;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .screen_subtitle {
     font-size: 16px;
@@ -59,7 +60,6 @@ h1::after {
 .screen_download{
     padding: 10px 26px;
     width: 140px;
-    /* display: block; */
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     color:#FFFFFF;
@@ -69,17 +69,17 @@ h1::after {
     border: 1px solid #FFFFFF;
     margin-bottom: 100px;
 }
-
+.screen_download:hover{
+    background-color: #FFFFFF;
+    color: #EC7979;
+}
 form {
     width: 100%;
 }
 .screen_trial {
-    /* margin: 80px auto; */
     max-width: 370px;
-    /* border: 1px solid #c0c0c0; */
     background-color: #FFFFFF;
     border-radius: 8px;
-    overflow: hidden;
 }
 .screen_text-title {
     font-size: 20px;
@@ -120,6 +120,7 @@ input{
 .btn {
     background-color: #EC7979;
     border: 0;
+    border-radius: 0 0 8px 8px;
     text-align: center;
     width: 100%;
     padding: 16px 0;

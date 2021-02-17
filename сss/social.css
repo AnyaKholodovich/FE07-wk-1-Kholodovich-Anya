@@ -1,11 +1,13 @@
-.social {
+.scoial {
     width: 100%;
     background-color: #F8EFEF;
 }
 .social_filling{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin: 0 -15px;
+    flex-wrap: wrap;
 }
 .social_title {
     font-size: 20px;
@@ -27,6 +29,7 @@
 .social_icons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .social_icons-item {
     color: #CCCCCC;
@@ -41,4 +44,7 @@
     transition-property: all 0.3s;
     transition-duration: 0.1s, 1s ;
     transition-delay: 0.1s;
+}
+.first{
+margin-left: 0;
 }

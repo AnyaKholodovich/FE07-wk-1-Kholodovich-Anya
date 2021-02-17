@@ -4,14 +4,18 @@
 .blocks {
 display: flex;
 justify-content: center;
+justify-content: space-around;
+margin: 0 -15px;
+flex-wrap: wrap;
 }
 .awesome_block {
-    /* display: inline-block; */
-    margin-top: 32px;
-    margin: auto;
+    margin: 0 15px;
+    /* margin-top: 32px;
+    margin: auto; */
     max-width: 350px;
     text-align: center;
     margin-bottom: 90px;
+    
 }
 .awesome_cirlce {
     border: 1px solid #D98943;
@@ -21,8 +25,8 @@ justify-content: center;
     margin: auto; 
     margin-bottom: 30px;
     display: flex;
-  align-items: center;
-  justify-content: center
+    align-items: center;
+    justify-content: center
 }
 .awesome_bloks-title {
 font-size: 20px;
